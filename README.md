@@ -46,5 +46,5 @@ When I'm not shipping production enterprise code, I enjoy experimenting with low
 ### 📫 Let's Connect
 If you are looking for a Senior Developer who maps technical choices straight to business revenue and loves unlocking architectural bottlenecks, let's talk.
 
-* **LinkedIn:** [://linkedin.com](https://www.linkedin.com/in/jd-hayes)
+* **LinkedIn:** [linkedin.com](https://www.linkedin.com/in/jd-hayes)
 * **Location:** Texas, USA 🇺🇸 (Open to Remote / Hybrid roles)
