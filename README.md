@@ -30,17 +30,21 @@ I architected and built this multi-tenant SaaS application from the ground up to
 * **Databases & Caching:** Relational Databases (PostgreSQL, MySQL), High-Throughput Caching & Atomic Storage (Redis)
 * **Frontend/UI:** Modern, hyper-fast interactive architectures (HTMX, Tailwind CSS, lightweight templating engines)
 
+* **[Main Work on REAMP](https://gitlab.com/joshdevelopsIRL):**  Shows the consistent work done on RE/AMP over the course of 3 years.
+
 ---
 
 ### 🔬 Open-Source Sandbox & Side Explorations
 When I'm not shipping production enterprise code, I enjoy experimenting with low-overhead tools and foundational language performance:
-* **[jeer](https://github.com):** A lightweight custom Go utility focused on clean, pragmatic testing semantics.
-* **[botprofiles-cs-source](https://github.com):** An atomic database generation engine for parsing and processing configs.
+* **[jeer](https://github.com/joshdevelopsIRL/jeer):** A lightweight custom Go utility focused on clean, pragmatic testing semantics.
+* **[botprofiles-cs-source](https://github.com/joshdevelopsIRL/botprofiles-cs-source):** An atomic database generation engine for parsing and processing configs to produce botprofile db for CS:S.
+* **[committy](https://git.turngear.dev/josh/committy):** A simple utility for formalizing and properly annotating commit messages.
+* **[ssql3](https://gitlab.com/joshdevelopsIRL/ssql3):** A wrapper for handling sqlite3 updates for small programs/scripts.
 
 ---
 
 ### 📫 Let's Connect
 If you are looking for a Senior Developer who maps technical choices straight to business revenue and loves unlocking architectural bottlenecks, let's talk.
 
-* **LinkedIn:** [://linkedin.com](https://www.://linkedin.com)
+* **LinkedIn:** [://linkedin.com](https://www.linkedin.com/in/jd-hayes)
 * **Location:** Texas, USA 🇺🇸 (Open to Remote / Hybrid roles)
