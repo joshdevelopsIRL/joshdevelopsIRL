@@ -1,7 +1,7 @@
 # Hi, I'm Josh (joshdevelopsIRL) 👋
-### Senior Full-Stack & Backend Architect | Building Enterprise SaaS & High-Throughput Engines
+### Full-Stack & Backend Architect | Building Enterprise SaaS & High-Throughput Engines
 
-I am a product-driven Senior Engineer with over a decade of hybrid business strategy and deep software engineering experience. I specialize in designing scalable backend architectures, orchestration layers, and complex data lifecycles using **Go, Node.js, and Python**.
+I am a product-driven Engineer with over a decade of hybrid business strategy and software engineering experience. I specialize in designing scalable backend architectures, orchestration layers, and complex data lifecycles using **Go, Node.js, and Python**.
 
 ---
 
