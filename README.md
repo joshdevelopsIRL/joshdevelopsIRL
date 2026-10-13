@@ -2,6 +2,7 @@
 ### Full-Stack & Backend Architect | Building Enterprise SaaS & High-Throughput Engines
 
 *Most of my projects that are open source and available are on https://git.turngear.dev/explore/repos*
+*Also my resume and freelancing website, complete with project information is here: https://turngear.dev*
 
 I am a product-driven Engineer with over a decade of hybrid business strategy and software engineering experience. I specialize in designing scalable backend architectures, orchestration layers, and complex data lifecycles using **Go, Node.js, and Python**.
 
