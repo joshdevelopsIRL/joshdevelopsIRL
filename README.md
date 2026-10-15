@@ -1,53 +1,80 @@
-# Hi, I'm Josh (joshdevelopsIRL) 👋
-### Full-Stack & Backend Architect | Building Enterprise SaaS & High-Throughput Engines
+# Hi, I'm Josh
 
-*Most of my projects that are open source and available are on https://git.turngear.dev/explore/repos*
-*Also my resume and freelancing website, complete with project information is here: https://turngear.dev*
+**Full-stack developer and technical SEO in Fort Worth, TX.** I lead development of a multi-tenant SaaS platform, and I build the data pipelines and tracking that connect marketing to revenue.
 
-I am a product-driven Engineer with over a decade of hybrid business strategy and software engineering experience. I specialize in designing scalable backend architectures, orchestration layers, and complex data lifecycles using **Go, Node.js, and Python**.
+Most of my public code is at [git.turngear.dev](https://git.turngear.dev/explore/repos). My resume, services, and case studies are at [turngear.dev](https://turngear.dev).
 
 ---
 
-### 📌 Note to Hiring Managers & Tech Leads
-The vast majority of my professional career has been dedicated to architecting proprietary, closed-source SaaS platforms and data engineering pipelines protected under strict corporate NDAs. 
+## About me
 
-Because of this, my public contribution graph does not reflect my daily output or capabilities. I specialize in designing high-concurrency systems, optimizing database pressure valves, and leading technical feature execution from product inception to production scale.
+I started in a dealership call center in 2014. The role grew into SEO, paid search, and then development, and I began writing code in 2016. Since 2023 I have worked as a full-stack developer, and I have led development of RE/AMP since March 2024.
 
----
+I work mainly in Python, JavaScript and TypeScript, SQL, and Go. I like tight, readable codebases, tests before features, and systems that fail in ways you can see.
 
-### 🚀 Featured Production Platform
+## A note on my public code
 
-#### [Re/Amp (reamp.co)](https://reamp.co) — Real Estate Transaction & Deal Management Platform
-I architected and built this multi-tenant SaaS application from the ground up to solve complex operational chaos in high-volume property portfolios.
-* **Core Architecture:** Engineered a resilient system managing complex property data lifecycles, team task delegation, and multi-party workflows.
-* **Key Mechanisms:** Implemented secure audit trails per property, automated transaction deadline reminders, custom KPI reporting metrics, and built-in e-signature contract integrations.
-* **Integrations:** Designed the operational layer to run parallel alongside major enterprise CRMs (like Salesforce and HubSpot), capturing asynchronous events effortlessly.
-* *Architecture walk-through and live platform demonstration are available upon request during our technical conversation.*
+Most of my day-to-day work is in proprietary codebases, so my contribution graph understates what I ship. The case studies on my site describe the architecture and decisions without exposing code or customer data.
 
 ---
 
-### 🛠️ Tech Stack & Expertise
+## Featured work: RE/AMP
 
-* **Languages:** Go, JavaScript/TypeScript (Node.js), Python, HTML/CSS
-* **Architecture:** Distributed Systems, Microservices, Async Event Queues, RESTful APIs, Multi-Tenant SaaS, ETL Data Pipelines
-* **Databases & Caching:** Relational Databases (PostgreSQL, MySQL), High-Throughput Caching & Atomic Storage (Redis)
-* **Frontend/UI:** Modern, hyper-fast interactive architectures (HTMX, Tailwind CSS, lightweight templating engines)
+[RE/AMP](https://reamp.co) is a multi-tenant platform for real estate transaction and investor operations. I started the codebase in March 2024 and lead its development across the database, backend, frontend, infrastructure, and production support.
 
-* **[Main Work on REAMP](https://gitlab.com/joshdevelopsIRL):**  Shows the consistent work done on RE/AMP over the course of 3 years.
+- **Scale:** 2,500+ of the repository's 5,000+ commits on main are mine. The codebase is 180,000+ lines of React, Node/Express, and SQL, excluding migrations and generated code.
+- **Tests:** 726 passing tests across 42 suites at one staging checkpoint. That is a snapshot, not a coverage figure.
+- **Tenant isolation:** the company ID comes from the signed-in user, never from the request body.
+- **Integrations:** Stripe webhooks, Twilio messaging with each company's own credentials, and email over IMAP.
+- **Storage and releases:** private S3 documents served with short-lived pre-signed URLs, and staging rebuilt from the latest production backup before each release.
 
----
-
-### 🔬 Open-Source Sandbox & Side Explorations
-When I'm not shipping production enterprise code, I enjoy experimenting with low-overhead tools and foundational language performance:
-* **[jeer](https://github.com/joshdevelopsIRL/jeer):** A lightweight custom Go utility focused on clean, pragmatic testing semantics.
-* **[botprofiles-cs-source](https://github.com/joshdevelopsIRL/botprofiles-cs-source):** An atomic database generation engine for parsing and processing configs to produce botprofile db for CS:S.
-* **[committy](https://git.turngear.dev/josh/committy):** A simple utility for formalizing and properly annotating commit messages.
-* **[ssql3](https://gitlab.com/joshdevelopsIRL/ssql3):** A wrapper for handling sqlite3 updates for small programs/scripts.
+Read the full write-up: [RE/AMP case study](https://turngear.dev/projects/reamp-saas-platform/).
 
 ---
 
-### 📫 Let's Connect
-If you are looking for a Senior Developer who maps technical choices straight to business revenue and loves unlocking architectural bottlenecks, let's talk.
+## Stack
 
-* **LinkedIn:** [linkedin.com](https://www.linkedin.com/in/jd-hayes)
-* **Location:** Texas, USA 🇺🇸 (Open to Remote / Hybrid roles)
+| Area | Tools |
+| --- | --- |
+| Languages | Python, JavaScript, TypeScript, SQL, Go |
+| Frontend | React, HTMX, Tailwind CSS |
+| Backend | Django, Node.js with Express, REST APIs |
+| Data | PostgreSQL, MySQL, Valkey |
+| Infrastructure | AWS (EC2, S3, VPC), Docker, Nginx, Linux |
+| Monitoring | Prometheus, Grafana, PostHog |
+
+---
+
+## Search and marketing
+
+I have worked on SEO since 2015, including SEO and ad accounts for 13 dealerships at World Car Auto Group. I build city-targeted pages with structured data, tracking in GA4 and Tag Manager, and data pipelines that feed ad platforms.
+
+---
+
+## Case studies and notes
+
+- [Distributed Playwright crawler](https://turngear.dev/projects/distributed-crawler/)
+- [Phone scrubber with a rate-limited queue](https://turngear.dev/projects/phone-scrubber/)
+- [Inventory feed pipeline for Google and Facebook ads](https://turngear.dev/projects/inventory-ad-feed-pipeline/)
+- [Engineering notes](https://turngear.dev/engineering-notes/)
+
+---
+
+## Open source and side projects
+
+- **[jeer](https://github.com/joshdevelopsIRL/jeer):** a small Go utility for clean, pragmatic testing.
+- **[botprofiles-cs-source](https://github.com/joshdevelopsIRL/botprofiles-cs-source):** generates a bot profile database for Counter-Strike: Source by parsing config files.
+- **[committy](https://git.turngear.dev/josh/committy):** a small utility for writing consistent commit messages.
+- **[ssql3](https://gitlab.com/joshdevelopsIRL/ssql3):** a wrapper for handling sqlite3 updates in small programs and scripts.
+
+My [GitLab activity](https://gitlab.com/joshdevelopsIRL) shows ongoing work on RE/AMP since March 2024.
+
+---
+
+## Get in touch
+
+I am open to remote or hybrid roles, and I take freelance projects through [turngear.dev](https://turngear.dev).
+
+- **LinkedIn:** [linkedin.com/in/jd-hayes](https://www.linkedin.com/in/jd-hayes)
+- **Email:** [jd@turngear.dev](mailto:jd@turngear.dev)
+- **Location:** Fort Worth, Texas
